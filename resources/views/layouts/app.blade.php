@@ -4,18 +4,19 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Laravel</title>
-
 </head>
-
 <body class="">
     <nav>
         <a href="/">Inicio</a>
         <a href="/nosotros">Nosotros</a>
         <a href="/tienda">Tienda</a>
     </nav>
-    <h1>Soccer|</h1>
+    <h1>@yield('titulo')</h1>
+
+    <hr>
+
+    @yield('contenido')
 </body>
 
 </html>
