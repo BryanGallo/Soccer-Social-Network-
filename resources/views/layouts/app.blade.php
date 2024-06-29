@@ -14,14 +14,14 @@
             <h1 class="text-3xl font-black">Social Soccer</h1>
             <nav class="flex gap-2 items-center">
                 <a href="#" class="font-bold uppercase text-gray-600 text-sm ">Login</a>
-                <a href="" class="font-bold uppercase text-gray-600 text-sm ">Crear
+                <a href="/crear-cuenta" class="font-bold uppercase text-gray-600 text-sm ">Crear
                     Cuenta</a>
             </nav>
         </div>
     </header>
     <main class="container mx-auto mt-10 ">
         <h2 class="font-black text-center text-3xl mb-10">@yield('titulo')</h2>
-        {{-- @yield('contenido') --}}
+        @yield('contenido')
     </main>
     <footer class="text-center font-bold text-gray-500 uppercase">
         {{-- usando codigo php con llaves --}}
