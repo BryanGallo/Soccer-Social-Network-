@@ -12,7 +12,7 @@
     <header class="p-5 border-b bg-white shadow">
         <div class="container mx-auto flex justify-between items-center">
             <h1>Social Soccer</h1>
-            <nav>
+            <nav class="flex gap-2 items-center">
                 <a href="#" class="font-bold uppercase text-gray-600 text-sm flex gap-2 items-center">Login</a>
                 <a href="" class="font-bold uppercase text-gray-600 text-sm flex gap-2 items-center">Crear
                     Cuenta</a>
