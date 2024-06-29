@@ -4,14 +4,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel</title>
+    <title>SOCIAL SOCCER</title>
 </head>
+
 <body class="">
-    <nav>
-        <a href="/">Inicio</a>
-        <a href="/nosotros">Nosotros</a>
-        <a href="/tienda">Tienda</a>
-    </nav>
+    <header class="p-5 border-b bg-white shadow">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1>Social Soccer</h1>
+            <nav>
+                <a href="#" class="font-bold uppercase text-gray-600 text-sm flex gap-2 items-center">Login</a>
+                <a href="" class="font-bold uppercase text-gray-600 text-sm flex gap-2 items-center">Crear
+                    Cuenta</a>
+            </nav>
+
+        </div>
+
+    </header>
     <h1>@yield('titulo')</h1>
 
     <hr>
